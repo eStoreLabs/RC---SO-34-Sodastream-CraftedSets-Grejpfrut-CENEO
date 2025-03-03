@@ -1131,9 +1131,9 @@
     font-size: 22px;
   }
   #es-rc-content.es-rc .es-recipes__day-night-group {
-    max-width: 355px;
+    max-width: 400px;
     margin-left: 15%;
-    margin-top: -100px;
+    margin-top: -120px;
   }
   #es-rc-content.es-rc .es-recipes__day-night-recipe-content {
     padding-left: 30px;
@@ -1141,7 +1141,7 @@
     font-size: 22px;
   }
   #es-rc-content.es-rc .es-recipes__day-night-label--first {
-    top: 11.4%;
+    top: 1.4%;
     left: 40%;
   }
   #es-rc-content.es-rc .es-recipes__day-night-label--second {
@@ -1189,7 +1189,7 @@
     left: 11%;
   }
   #es-rc-content.es-rc .es-revolution {
-    background: url(./static/img/revolution-bg.png) no-repeat center -90px;
+    background: url(./static/img/revolution-bg.png) no-repeat center -60px;
   }
   #es-rc-content.es-rc .es-revolution__subtitle {
     font-size: 21px;
@@ -1381,6 +1381,21 @@
 
   #es-rc-content.es-rc .es-set__group-item-description--2 {
     max-width: 80%;
+  }
+
+  #es-rc-content.es-rc .es-recipes__day-night-title {
+    font-size: 44px;
+    max-width: 550px;
+  }
+
+  #es-rc-content.es-rc .es-recipes__day-night-group {
+    margin-left: 20%;
+    margin-top: -165px;
+    max-width: 550px;
+  }
+
+  #es-rc-content.es-rc .es-recipes__day-night-label--first {
+    top: -2%;
   }
 }
 @keyframes slidedown {
